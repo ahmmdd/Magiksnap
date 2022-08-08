@@ -14,11 +14,17 @@
 
   let isInView = false;
 
+  const phototemplates = [
+      {
+        imageLink: "/images/magik-snap-photo-booth-intro-image.jpg",
+        imageDescription: "Image Description",
+      },
+      {
+        imageLink: "/images/magik-snap-photo-booth-intro-image.jpg",
+        imageDescription: "Image Description",
 
-  // const onSwiper = (e) => {
-  //       const [swiper] = e.detail;
-  //       console.log(swiper);
-  //     }
+      },
+  ];
 </script>
 
 <div id="memories">
@@ -43,63 +49,17 @@
         modules={[Navigation]}
         centeredSlides={true}
         roundLengths={true}
-        loop={true}
+        loop={false}
         on:slideChange={() => console.log("slide change")}
       >
+      {#each phototemplates as phototemplate, i}
         <SwiperSlide>
           <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
+            src="{phototemplate.imageLink}"
+            alt="{phototemplate.imageDescription}"
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/images/magik-snap-photo-booth-intro-image.jpg"
-            alt="test"
-          />
-        </SwiperSlide>
+        {/each}
       </Swiper>
     </div>
     {/if}
