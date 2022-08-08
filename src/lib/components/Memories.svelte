@@ -22,8 +22,7 @@
       {
         imageLink: "/images/magik-snap-photo-booth-intro-image.jpg",
         imageDescription: "Image Description",
-
-      },
+      }
   ];
 </script>
 
