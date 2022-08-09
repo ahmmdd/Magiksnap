@@ -17,11 +17,11 @@
   const phototemplates = [
       {
         imageLink: "/images/magik-snap-photo-booth-intro-image.jpg",
-        imageDescription: "Image Description",
+        imageDescription: "Image Description"
       },
       {
         imageLink: "/images/magik-snap-photo-booth-intro-image.jpg",
-        imageDescription: "Image Description",
+        imageDescription: "Image Description"
       }
   ];
 </script>
