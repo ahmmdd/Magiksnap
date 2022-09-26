@@ -34,7 +34,6 @@ import Booking from '$lib/components/Booking.svelte';
         gap:40px;
     }
     #home p{
-        /* color: #e2e419; */
         color:#e6e7e8;
         font-size:38px;
     }
@@ -46,5 +45,4 @@ import Booking from '$lib/components/Booking.svelte';
     span.yellow{
         color:#f7e033;
     }
-    
 </style>
