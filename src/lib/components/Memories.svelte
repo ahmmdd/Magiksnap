@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   // import SwiperCore, { Controller } from 'swiper';
   import { Navigation } from "swiper";
   import { Swiper, SwiperSlide } from "swiper/svelte";
