@@ -25,6 +25,5 @@ body{
     padding:0;
     background:#041e2d;
     font-family: 'Nanum Gothic', sans-serif;
-    /* min-height: 100vh; */
 }
 </style>
