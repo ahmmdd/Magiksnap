@@ -2,8 +2,6 @@
   // import SwiperCore, { Controller } from 'swiper';
   import { Navigation } from "swiper";
   import { Swiper, SwiperSlide } from "swiper/svelte";
-  // import SwiperComponent from "swiper/esm/svelte/swiper.svelte";
-  //   import { Swiper } from "swiper";
 
   // Import Swiper styles
   import "swiper/css";
@@ -46,7 +44,6 @@
       {#each templates as template, i}
       {#if template.featured == true}
         <SwiperSlide>
-
           <h3 style="text-align: center;">{template.name}</h3>
           <img
             src="{template.link}"
