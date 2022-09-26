@@ -1,5 +1,5 @@
-<script lang="ts">
-    import { fly } from 'svelte/transition';
+<script>
+import { fly } from 'svelte/transition';
 import Memories from '$lib/components/Memories.svelte';
 import Packages from '$lib/components/Packages.svelte';
 import Booking from '$lib/components/Booking.svelte';

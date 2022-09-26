@@ -48,6 +48,7 @@
           <img
             src="{template.link}"
             alt="{template.description}"
+            height="100%"
           />
         </SwiperSlide>
         {/if}
@@ -101,20 +102,26 @@
     padding: 50px 0;
   }
   :global(.swiper-memories .swiper-slide) {
+    max-height: 70vh;
+    height: 700px;
     transform: scale(0.8);
   }
   :global(.swiper-memories .swiper-slide img) {
+    /* max-width: 100%; */
     width: 100%;
     height: auto;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3); */
   }
   :global(.swiper-memories .swiper-slide-active) {
     transform: scale(1);
     overflow: visible;
   }
   :global(.swiper-memories .swiper-slide-active img) {
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2); */
   }
   /* .swiper-wrapper{
         max-width: 400px;
