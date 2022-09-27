@@ -14,16 +14,13 @@
                         <a href="/">Memories</a>
                     </li>
                     <li>
-                        <a href="/">How it works</a>
-                    </li>
-                    <li>
-                        <a href="/">Templates</a>
+                        <a href="/photo-templates">Templates</a>
                     </li>
                     <li>
                         <a href="/">Backdrops</a>
                     </li>
                     <li>
-                        <a href="/">Packages</a>
+                        <a href="#packages">Packages</a>
                     </li>
                     <li class="book">
                         <a href="/">Book Yours Now</a>
