@@ -3,7 +3,7 @@
         "link": "/images/templates/2x6/2x6 (02).webp",
         "name" : "2x6 (02)",
         "description": "2x6",
-        "featured": true,
+        "featured": false,
         "tags":[
             "2x6"
 
@@ -13,7 +13,7 @@
         "link": "/images/templates/2x6/2x6 (03).webp",
         "name" : "2x6 (03)",
         "description": "2x6",
-        "featured": true,
+        "featured": false,
         "tags":[
             "2x6"
 
@@ -23,7 +23,7 @@
         "link": "/images/templates/2x6/2x6 (04).webp",
         "name" : "2x6 (04)",
         "description": "2x6",
-        "featured": true,
+        "featured": false,
         "tags":[
             "2x6"
 
@@ -33,7 +33,7 @@
         "link": "/images/templates/2x6/2x6 (05).webp",
         "name" : "2x6 (05)",
         "description": "2x6",
-        "featured": true,
+        "featured": false,
         "tags":[
             "2x6"
 
@@ -43,7 +43,7 @@
         "link": "/images/templates/2x6/2x6 (06).webp",
         "name" : "2x6 (06)",
         "description": "2x6",
-        "featured": true,
+        "featured": false,
         "tags":[
             "2x6"
 
@@ -53,7 +53,7 @@
         "link": "/images/templates/2x6/2x6 (07).webp",
         "name" : "2x6 (07)",
         "description": "2x6",
-        "featured": true,
+        "featured": false,
         "tags":[
             "2x6"
 
