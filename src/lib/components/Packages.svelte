@@ -25,7 +25,7 @@ isInViewTwo = detail.inView;
                 <li>Digital Copies</li>
                 <li>Backdrop</li>
             </ul>
-            <a href="/">Book Yours Now</a>
+            <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
         </div>
         <div transition:fly="{{ y: 50, duration: 1000, delay:1000 }}">
             <h3>Printing Package</h3>
@@ -39,7 +39,7 @@ isInViewTwo = detail.inView;
                 <li>Custom Templete</li>
                 <li>Standard & Specialized Props</li>
             </ul>
-            <a href="/">Book Yours Now</a>
+            <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
         </div>
     </div>
 </div>
@@ -58,9 +58,9 @@ isInViewTwo = detail.inView;
 }
 .packages-container{
     display: grid;
-    margin:80px 0;
+    margin:80px 20px;
     justify-content: center;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 40% 40%;
     gap:50px;
 }
 .packages-container div{
@@ -73,6 +73,11 @@ isInViewTwo = detail.inView;
     transition: .2s all ease-in;
     box-shadow: 0px 0px 5px 1px rgba(226,228,25,.3);
 }
+@media screen and (max-width:756px){
+        .packages-container{
+            grid-template-columns: 100%;
+        }
+    }
 .packages-container div:hover{
     transform: scale(1.02);
     box-shadow: 0px 0px 15px 3px rgba(255,255,255,.4);
