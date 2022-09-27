@@ -20,11 +20,11 @@
       }}
       >
       {#if isInView}
-        <h2 transition:fly="{{ y: 50, duration: 1000 }}">Magiksnap Photo Booth Templates</h2>
-        <p transition:fly="{{ y: 50, duration: 1000, delay: 500 }}">
+        <h2 transition:fly="{{ y: 50, duration: 500 }}">Magiksnap Photo Booth Templates</h2>
+        <p transition:fly="{{ y: 50, duration: 500, delay:250 }}">
           Select the template for your event from our vast library of ready templates made for you.
         </p>
-        <div transition:fly="{{ y: 50, duration: 1000, delay:1000 }}">
+        <div transition:fly="{{ y: 50, duration: 500, delay:500 }}">
           <div class="photo-templates-gallery">
         {#each templates as template, i}
                 <div>

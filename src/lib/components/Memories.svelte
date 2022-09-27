@@ -35,12 +35,18 @@
     <div class="swiper-memories" transition:fly="{{ y: 50, duration: 1000, delay:1000 }}">
       <Swiper
         spaceBetween={0}
-        slidesPerView={3}
+        slidesPerView={1}
         navigation={true}
         modules={[Navigation]}
         centeredSlides={true}
         roundLengths={true}
-        loop={false}
+        loop={true}
+        breakpoints={{
+          "756": {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+        }}
         on:slideChange={() => console.log("slide change")}
       >
       {#each templates as template, i}
@@ -58,18 +64,22 @@
       </Swiper>
     </div>
     {/if}
+    <!-- <a href="/photo-templates">View All</a> -->
   </div>
 </div>
 
 <style>
   #memories {
     background: #e6e7e8;
-    border-radius: 25px;
+    border-radius: 55px 55px 0 0;
+    /* margin:40px; */
+    box-shadow: 0px 0px 55px 35px rgba(0,0,0,.3);
+    /* max-width: 1440px; */
   }
   #memories .container {
     display: flex;
     /* margin:80px auto; */
-    padding: 100px;
+    padding:40px 20px;
     flex-direction: column;
     justify-content: center;
   }
@@ -105,8 +115,12 @@
   }
   :global(.swiper-memories .swiper-slide) {
     max-height: 70vh;
-    height: 700px;
-    transform: scale(0.8);
+    height: auto;
+    transform: scale(0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   :global(.swiper-memories .swiper-slide img) {
     /* max-width: 100%; */
@@ -114,7 +128,7 @@
     height: auto;
     max-height: 100%;
     object-fit: contain;
-    object-position: center;
+    object-position: center center;
     border-radius: 15px;
     /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3); */
   }
@@ -134,4 +148,23 @@
         height:auto;
         overflow: hidden;
     } */
+    #memories a{
+    display: inline-block;
+    width: auto;
+    margin:50px auto;
+    padding:10px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background: #041e2d;
+    color:#e2e419;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 2.5em;
+    transition: .2s all ease-in;
+}
+#memories a:hover{
+    outline:3px solid #e6e7e8;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,.3);
+}
 </style>

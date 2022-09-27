@@ -5,28 +5,15 @@
 <header>
     <div class="header-main"  transition:fade>
         <div>
-            <img src="/images/magik-snap-icon.svg" alt="Magik Snap Icon" width="120px" height="auto"/>
+            <a href="/">
+                <img src="/images/magik-snap-icon.svg" alt="Magik Snap Icon" width="120px" height="auto"/>
+            </a>
         </div>
         <div>
             <nav>
                 <ul>
-                    <li>
-                        <a href="/">Memories</a>
-                    </li>
-                    <li>
-                        <a href="/">How it works</a>
-                    </li>
-                    <li>
-                        <a href="/">Templates</a>
-                    </li>
-                    <li>
-                        <a href="/">Backdrops</a>
-                    </li>
-                    <li>
-                        <a href="/">Packages</a>
-                    </li>
                     <li class="book">
-                        <a href="/">Book Yours Now</a>
+                        <a target="_blank" href="https://linktr.ee/magiksnap">Book Yours Now</a>
                     </li>
                 </ul>
             </nav>
@@ -35,9 +22,9 @@
 </header>
 
 <style>
-header{
-    background:#e6e7e8;
-    padding:20px 0;
+header{ 
+    background:#81b0cc;
+    padding:20px;
     border-radius:0 0 20px 20px;
 }
 .header-main{

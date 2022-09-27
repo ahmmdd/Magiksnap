@@ -3,6 +3,7 @@ import { fly } from 'svelte/transition';
 import Memories from '$lib/components/Memories.svelte';
 import Packages from '$lib/components/Packages.svelte';
 import Booking from '$lib/components/Booking.svelte';
+  import Backdrops from '$lib/components/Backdrops.svelte';
 
 
    
@@ -19,6 +20,7 @@ import Booking from '$lib/components/Booking.svelte';
 <!-- <img transition:fly="{{ y: 50, duration: 3000, delay:100 }}" src="/images/magik-snap-photo-booth-intro-image.jpg" alt="Photo Booth" /> -->
 <Memories />
 <Packages/>
+<Backdrops/>
 <Booking/>
 <style>
     #home{
@@ -33,6 +35,7 @@ import Booking from '$lib/components/Booking.svelte';
         align-items: center;
         gap:40px;
     }
+    
     #home p{
         color:#e6e7e8;
         font-size:38px;
@@ -44,5 +47,10 @@ import Booking from '$lib/components/Booking.svelte';
     }
     span.yellow{
         color:#f7e033;
+    }
+    @media screen and (max-width:756px){
+        #home{
+            grid-template-columns: 100%;
+        }
     }
 </style>
