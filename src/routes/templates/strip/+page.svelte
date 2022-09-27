@@ -6,7 +6,7 @@
       import { fly } from 'svelte/transition';
       import { inview } from 'svelte-inview';
     
-      import templates from "$lib/data/photoTemplates.json";
+      import templates from "$lib/data/stripTemplates.json";
     
       let isInView = false;
       //pnpm run dev
@@ -87,5 +87,11 @@
         height: auto;
         object-fit: contain;
       }
+      @media screen and (max-width:756px){
+        .photo-templates-gallery{
+        display: grid;
+        grid-template-columns: 100%;
+      }
+    }
     </style>
     
