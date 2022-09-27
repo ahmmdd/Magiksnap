@@ -18,40 +18,26 @@ isInViewTwo = detail.inView;
     <h2 transition:fly="{{ y: 50, duration: 1000 }}">Packages</h2>
     <div class="packages-container">
         <div transition:fly="{{ y: 50, duration: 1000, delay:500 }}">
-            <h3>Basic Package</h3>
+            <h3>Digital Package</h3>
             <ul>
                 <li>Photo Booth Setup</li>
-                <li>Unlimited photos</li>
-                <li>Digital copies</li>
-                <li>Basic Backdrop</li>
+                <li>Unlimited Photos</li>
+                <li>Digital Copies</li>
+                <li>Backdrop</li>
             </ul>
             <a href="/">Book Yours Now</a>
         </div>
         <div transition:fly="{{ y: 50, duration: 1000, delay:1000 }}">
-            <h3>Plus Package</h3>
+            <h3>Printing Package</h3>
             <ul>
                 <li>Photo Booth Setup</li>
-                <li>Unlimited photos</li>
-                <li>Digital copies</li>
+                <li>Unlimited Photos</li>
+                <li>Digital Copies</li>
                 <li>Basic Backdrop</li>
                 <li>Unlimited Prints</li>
-                <li>Premium Backdrop</li>
+                <li>Backdrop</li>
                 <li>Custom Templete</li>
-                <li>Basic Props</li>
-            </ul>
-            <a href="/">Book Yours Now</a>
-        </div>
-        <div transition:fly="{{ y: 50, duration: 1000, delay:1500 }}">
-            <h3>Premium Package</h3>
-            <ul>
-                <li>Photo Booth Setup</li>
-                <li>Unlimited photos</li>
-                <li>Digital copies</li>
-                <li>Basic Backdrop</li>
-                <li>Unlimited Prints</li>
-                <li>Premium Backdrop</li>
-                <li>Custom Multiple Templates</li>
-                <li>Basic, Specialized & Customized Props</li>
+                <li>Standard & Specialized Props</li>
             </ul>
             <a href="/">Book Yours Now</a>
         </div>
