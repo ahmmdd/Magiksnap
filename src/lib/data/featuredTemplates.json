@@ -1,0 +1,75 @@
+[
+    {
+      "link": "/images/templates/featured/01.webp",
+      "name" : "",
+      "description": "featured",
+      "featured": true,
+      "tags":[
+          "featured"
+
+      ]
+    },{
+        "link": "/images/templates/featured/02.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      },{
+        "link": "/images/templates/featured/03.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      },{
+        "link": "/images/templates/featured/04.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      },{
+        "link": "/images/templates/featured/05.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      },{
+        "link": "/images/templates/featured/06.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      },{
+        "link": "/images/templates/featured/07.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      },{
+        "link": "/images/templates/featured/08.webp",
+        "name" : "",
+        "description": "featured",
+        "featured": true,
+        "tags":[
+            "featured"
+  
+        ]
+      }
+]

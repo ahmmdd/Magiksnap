@@ -12,7 +12,7 @@
   import { fly } from 'svelte/transition';
   import { inview } from 'svelte-inview';
 
-  import templates from "../data/photoTemplates.json";
+  import templates from "../data/featuredTemplates.json";
 
   let isInView = false;
   //pnpm run dev
