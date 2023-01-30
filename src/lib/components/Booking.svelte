@@ -2,7 +2,7 @@
     <div class="container">
         <h2>Contact Us!</h2>
         <div>
-            <p>Toronto: <a href="tel:+14165002124">(416) 500-2124</a></p>
+            <p>Toronto: <a href="tel:+14168813415">(416) 881-3415</a></p>
             <p>Inquiries: <a href="mailto:magiksnap@gmail.com">magiksnap@gmail.com</a></p>
         </div>
     </div>

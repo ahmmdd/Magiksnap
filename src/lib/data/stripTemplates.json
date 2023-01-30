@@ -1,5 +1,15 @@
 [
-      {
+  {
+    "link": "/images/templates/2x6/2x6 (01).webp",
+    "name" : "2x6 (01)",
+    "description": "2x6",
+    "featured": false,
+    "tags":[
+        "2x6"
+
+    ]
+  },
+  {
         "link": "/images/templates/2x6/2x6 (02).webp",
         "name" : "2x6 (02)",
         "description": "2x6",
@@ -147,10 +157,14 @@
 
         ]
       },{
-        "imageLink": "/images/templates/2x6/2x6 (17).webp",
-        "imgName" : "2x6 (17)",
-        "imageDescription": "2x6",
-        "imageTag": "2x6"
+        "link": "/images/templates/2x6/2x6 (17).webp",
+        "name" : "2x6 (17)",
+        "description": "2x6",
+        "featured": false,
+        "tags":[
+            "2x6"
+
+        ]
       },
       {
         "link": "/images/templates/2x6/2x6 (18).webp",
@@ -272,10 +286,14 @@
         ]
       },
       {
-        "imageLink": "/images/templates/2x6/2x6 (30).webp",
-        "imgName" : "2x6 (30)",
-        "imageDescription": "2x6",
-        "imageTag": "2x6"
+        "link": "/images/templates/2x6/2x6 (30).webp",
+        "name" : "2x6 (30)",
+        "description": "2x6",
+        "featured": false,
+        "tags":[
+            "2x6"
+
+        ]
       },
       {
         "link": "/images/templates/2x6/2x6 (31).webp",
@@ -298,10 +316,14 @@
         ]
       },
       {
-        "imageLink": "/images/templates/2x6/2x6 (33).webp",
-        "imgName" : "2x6 (33)",
-        "imageDescription": "2x6",
-        "imageTag": "2x6"
+        "link": "/images/templates/2x6/2x6 (33).webp",
+        "name" : "2x6 (33)",
+        "description": "2x6",
+        "featured": false,
+        "tags":[
+            "2x6"
+
+        ]
       },
       {
         "link": "/images/templates/2x6/2x6 (34).webp",
@@ -667,10 +689,14 @@
 
         ]
       },{
-        "imageLink": "/images/templates/2x6/2x6 (71).webp",
-        "imgName" : "2x6 (71)",
-        "imageDescription": "2x6",
-        "imageTag": "2x6"
+        "link": "/images/templates/2x6/2x6 (71).webp",
+        "name" : "2x6 (71)",
+        "description": "2x6",
+        "featured": false,
+        "tags":[
+            "2x6"
+
+        ]
       },
       {
         "link": "/images/templates/2x6/2x6 (72).webp",
