@@ -23,8 +23,8 @@
 
 <style>
 header{ 
-    background:#81b0cc;
-    padding:20px;
+    background:#78b8d8;
+    padding:10px 20px;
     border-radius:0 0 20px 20px;
 }
 .header-main{
@@ -32,7 +32,7 @@ header{
     margin:0 auto;
     display: flex;
     flex-direction: row;
-    align-items:baseline;
+    align-items:flex-end;
     justify-content: space-between;
 }
 header nav ul{
@@ -53,6 +53,11 @@ header nav ul li a{
     text-decoration: none;
     font-size:18px;
     font-weight: bold;
+}
+header nav ul li:hover{
+    color:#041e2d;
+    outline:3px solid #e6e7e8;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,.3);
 }
 header nav ul li.book{
     background: #041e2d;

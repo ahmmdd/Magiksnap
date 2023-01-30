@@ -46,6 +46,6 @@ p{
     font-size: 24px;
 }
 #booking .container div p a{
-    color:#81b0cc;
+    color:#78b8d8;
 }
 </style>
