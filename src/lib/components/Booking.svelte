@@ -2,8 +2,10 @@
     <div class="container">
         <h2>Contact Us!</h2>
         <div>
-            <p>Toronto: <a href="tel:+14168813415">(416) 881-3415</a></p>
-            <p>Inquiries: <a href="mailto:magiksnap@gmail.com">magiksnap@gmail.com</a></p>
+            <p>Toronto: <a href="tel:+16473257627">(647) 325-SNAP</a></p>
+            <p>Inquiries: <a href="mailto:info@magiksnap.ca">info@magiksnap.ca</a></p>
+            <!-- <p>Instagram: </p>
+            <p>Facebook: </p> -->
         </div>
     </div>
 </div>

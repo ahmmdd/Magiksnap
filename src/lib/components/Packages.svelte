@@ -33,9 +33,8 @@ isInViewTwo = detail.inView;
                 <li>Photo Booth Setup</li>
                 <li>Unlimited Photos</li>
                 <li>Digital Copies</li>
-                <li>Basic Backdrop</li>
-                <li>Unlimited Prints</li>
                 <li>Backdrop</li>
+                <li>Unlimited Prints</li>
                 <li>Custom Templete</li>
                 <li>Standard & Specialized Props</li>
             </ul>
