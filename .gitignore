@@ -6,4 +6,5 @@ node_modules
 .env
 .env.*
 !.env.example
-*-lock.*
+*-lock.yaml
+*-lock.json

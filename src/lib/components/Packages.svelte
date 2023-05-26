@@ -34,9 +34,9 @@ isInViewTwo = detail.inView;
                 <li>Unlimited Photos</li>
                 <li>Digital Copies</li>
                 <li>Backdrop</li>
-                <li>Unlimited Prints</li>
-                <li>Custom Templete</li>
-                <li>Standard & Specialized Props</li>
+                <li>Unlimited Printouts</li>
+                <li>Template</li>
+                <li>Standard Props</li>
             </ul>
             <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
         </div>
