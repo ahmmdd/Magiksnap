@@ -2,7 +2,7 @@
     <div class="container">
         <h2>Contact Us!</h2>
         <div>
-            <p>Toronto: <a href="tel:+16473257627">(647) 325-SNAP</a></p>
+            <p>Toronto: <a href="tel:+16473257627">(647) 325-SNAP (7627)</a></p>
             <p>Inquiries: <a href="mailto:info@magiksnap.ca">info@magiksnap.ca</a></p>
             <!-- <p>Instagram: </p>
             <p>Facebook: </p> -->
