@@ -13,7 +13,22 @@
             <nav>
                 <ul>
                     <li class="book">
-                        <a target="_blank" href="https://linktr.ee/magiksnap">Book Yours Now</a>
+                        <a href="/templates">Templates</a>
+                    </li>
+                    <li class="book">
+                        <a href="/templates">Backdrops</a>
+                    </li>
+                    <li class="book">
+                        <a href="/templates">Photobooth</a>
+                    </li>
+                    <li class="book">
+                        <a href="/templates">360 Booth</a>
+                    </li>
+                    <li class="book">
+                        <a href="/templates">Guest Book</a>
+                    </li>
+                    <li class="book">
+                        <a href="/book-an-event">Book Now</a>
                     </li>
                 </ul>
             </nav>
