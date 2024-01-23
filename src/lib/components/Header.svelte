@@ -1,85 +1,97 @@
 <script>
     import { fade } from 'svelte/transition';
+    import { page } from '$app/stores';
     
+    let menuItems = [
+        {
+            link: "/",
+            name: "Home"
+        },
+        {
+            link: "/templates",
+            name: "Templates"
+        },
+        {
+            link: "/backdrops",
+            name: "Backdrops"
+        },
+        {
+            link: "/photobooth",
+            name: "Photobooth"
+        },
+        {
+            link: "/guest-book",
+            name: "Guest Book"
+        },
+        {
+            link: "/book-an-event",
+            name: "Book Now"
+        }
+    ]
 </script>
 <header>
-    <div class="header-main"  transition:fade>
+    <div class="header-container">
         <div>
             <a href="/">
-                <img src="/images/magik-snap-icon.svg" alt="Magik Snap Icon" width="120px" height="auto"/>
+                <img src="/images/magik-snap-icon.svg" alt="Magik Snap Icon" width="40px" height="auto"/>
             </a>
         </div>
-        <div>
-            <nav>
-                <ul>
-                    <li class="book">
-                        <a href="/templates">Templates</a>
+        <nav>
+            <ul>
+                {#each menuItems as menu}
+                    <li class:active={$page.url.pathname == menu.link}>
+                        <a href="{menu.link}">{menu.name}</a>
                     </li>
-                    <li class="book">
-                        <a href="/templates">Backdrops</a>
-                    </li>
-                    <li class="book">
-                        <a href="/templates">Photobooth</a>
-                    </li>
-                    <li class="book">
-                        <a href="/templates">360 Booth</a>
-                    </li>
-                    <li class="book">
-                        <a href="/templates">Guest Book</a>
-                    </li>
-                    <li class="book">
-                        <a href="/book-an-event">Book Now</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+                {/each}
+            </ul>
+        </nav>
+    </div>   
 </header>
 
-<style>
-header{ 
-    background:#78b8d8;
-    padding:10px 20px;
-    border-radius:0 0 20px 20px;
-}
-.header-main{
-    max-width: 1440px;
-    margin:0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-    justify-content: space-between;
-}
-header nav ul{
-    list-style: none;
-    margin:0;
-    padding:0;
-    display: flex;
-    color:#041e2d;
-    justify-content: center;
-    align-items: center;
-    /* margin:10px ; */
-}
-header nav ul li{
-    margin:0 10px;
-}
-header nav ul li a{
-    color:#041e2d;
-    text-decoration: none;
-    font-size:18px;
-    font-weight: bold;
-}
-header nav ul li:hover{
-    color:#041e2d;
-    outline:3px solid #e6e7e8;
-    box-shadow: 0px 0px 15px 3px rgba(0,0,0,.3);
-}
-header nav ul li.book{
-    background: #041e2d;
-    padding:10px;
-    border-radius: 15px;
-}
-header nav ul li.book a{
-    color:#e2e419;
-}
+<style lang="scss">
+ header{
+    position: fixed;
+    top:8px;
+    left:0;
+     width: 100vw;
+     height: auto;
+     z-index: 999;
+     .header-container{
+        max-width: 1440px;
+        background:var(--light-bg-color);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap:var(--default-gap);
+        padding:calc(var(--default-gap) * 1) 100px;
+        margin:calc(var(--default-gap)) auto;
+        border-radius: 100px;
+        box-shadow: 0px 0px 20px 5px rgba(13, 0, 111, 0.3);
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            gap:var(--default-gap);
+            li{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                padding:4px 16px;
+                border-radius: 40px;
+                &.active{
+                    background-color: yellow;
+                }
+                a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color:var(--primary-color);
+                }
+            }
+        }
+     }
+    // display: none;
+    
+ }
 </style>

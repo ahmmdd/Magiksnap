@@ -9,30 +9,20 @@
   import "swiper/css";
   import "swiper/css/navigation";
 
-  import { fly } from 'svelte/transition';
-  import { inview } from 'svelte-inview';
-
   import templates from "../data/featuredTemplates.json";
 
-  let isInView = false;
   //pnpm run dev
 </script>
 
 <div id="memories">
-  <div class="container"
-  use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
-  on:change={({ detail }) => {
-    isInView = detail.inView;
-  }}
-  >
-  {#if isInView}
-    <h2 transition:fly="{{ y: 50, duration: 1000 }}">Creating Memories</h2>
-    <p transition:fly="{{ y: 50, duration: 1000, delay: 500 }}">
+  <div class="container">
+    <h2>Creating Memories</h2>
+    <p>
       We provide unlimited high resolution photos for your guests, personalized
       with custom graphics of your choice. We also offer online photo galleries,
       fun props, and more, to help make your event truly unforgettable.
     </p>
-    <div class="swiper-memories" transition:fly="{{ y: 50, duration: 1000, delay:1000 }}">
+    <div class="swiper-memories">
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
@@ -63,23 +53,21 @@
         {/each}
       </Swiper>
     </div>
-    {/if}
-    <!-- <a href="/photo-templates">View All</a> -->
   </div>
 </div>
 
 <style>
   #memories {
-    background: #e6e7e8;
-    border-radius: 55px 55px 0 0;
+    /* background: #e6e7e8; */
+    /* border-radius: 55px 55px 0 0; */
     /* margin:40px; */
-    box-shadow: 0px 0px 55px 35px rgba(0,0,0,.3);
+    /* box-shadow: 0px 0px 55px 35px rgba(0,0,0,.3); */
     /* max-width: 1440px; */
   }
   #memories .container {
     display: flex;
     /* margin:80px auto; */
-    padding:40px 20px;
+    /* padding:40px 20px; */
     flex-direction: column;
     justify-content: center;
   }
@@ -87,18 +75,6 @@
     /*max-height: 50%;
     max-width: 50%;*/
     margin: 0 auto;
-  }
-  #memories h2 {
-    font-size: 42px;
-    text-align: center;
-    margin: 0;
-  }
-  #memories p {
-    font-size: 24px;
-    color: #041e2d;
-    text-align: center;
-    max-width: 1100px;
-    margin: 20px auto;
   }
   .container {
     max-width: 1440px;

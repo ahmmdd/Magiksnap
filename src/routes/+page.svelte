@@ -1,27 +1,23 @@
 <script>
-import { fly } from 'svelte/transition';
 import Memories from '$lib/components/Memories.svelte';
 import Packages from '$lib/components/Packages.svelte';
 import Booking from '$lib/components/Booking.svelte';
   import Backdrops from '$lib/components/Backdrops.svelte';
-
-
-   
 </script>
 
 <div id="home">
-    <p transition:fly="{{ y: 50, duration: 1500 }}">
+    <p>
         <span class="yellow">Magik Snap</span> provides <span class="yellow">photo booth</span> rental services for <span class="yellow">Weddings</span>, <span class="yellow">corporate events, private parties</span> and more. Our photo booths are portable, stylish and sophisticated.
     </p>
     <div>
-        <img transition:fly="{{ y: 50, duration: 2000, delay:100 }}" src="/images/magik-snap-photo-booth-intro-image.jpg" alt="Photo Booth" />
+        <!-- svelte-ignore a11y-img-redundant-alt -->
+        <img src="/images/magik-snap-photo-booth-intro-image.jpg" alt="Magik Snap Photo Booth" />
     </div>
 </div>
 <!-- <img transition:fly="{{ y: 50, duration: 3000, delay:100 }}" src="/images/magik-snap-photo-booth-intro-image.jpg" alt="Photo Booth" /> -->
 <Memories />
 <Packages/>
 <Backdrops/>
-<Booking/>
 <style>
     #home{
         width: 100%;

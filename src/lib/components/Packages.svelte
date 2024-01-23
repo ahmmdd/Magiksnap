@@ -1,23 +1,12 @@
 <script>
-// @ts-nocheck
 
-import { fly } from 'svelte/transition';
-import { inview } from 'svelte-inview';
-
-let isInViewTwo = false;
 
 </script>
-<div id="packages"
-use:inview={{ unobserveOnEnter: true, rootMargin: '20%' }}
-on:change={({ detail }) => {
-isInViewTwo = detail.inView;
-}}
->
-{#if isInViewTwo}
+<div id="packages">
 <div class="container">
-    <h2 transition:fly="{{ y: 50, duration: 1000 }}">Packages</h2>
+    <h2>Packages</h2>
     <div class="packages-container">
-        <div transition:fly="{{ y: 50, duration: 1000, delay:500 }}">
+        <div>
             <h3>Digital Package</h3>
             <ul>
                 <li>Photo Booth Setup</li>
@@ -27,7 +16,7 @@ isInViewTwo = detail.inView;
             </ul>
             <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
         </div>
-        <div transition:fly="{{ y: 50, duration: 1000, delay:1000 }}">
+        <div>
             <h3>Printing Package</h3>
             <ul>
                 <li>Photo Booth Setup</li>
@@ -42,7 +31,6 @@ isInViewTwo = detail.inView;
         </div>
     </div>
 </div>
-{/if}
 </div>
 <style>
 #packages{

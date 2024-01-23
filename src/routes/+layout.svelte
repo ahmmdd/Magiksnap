@@ -1,6 +1,7 @@
 <script>
 
 import Header from '../lib/components/Header.svelte';
+import '../app.scss';
 import { onMount } from 'svelte';
     let ready = false;
   onMount(() => ready = true);
@@ -13,7 +14,7 @@ import { onMount } from 'svelte';
 </body>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -25,5 +26,5 @@ body{
     padding:0;
     background:#041e2d;
     font-family: 'Nanum Gothic', sans-serif;
-}
+} */
 </style>
