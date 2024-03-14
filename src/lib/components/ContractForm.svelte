@@ -1,12 +1,12 @@
 <div>
     <div>
         <h1>MagikSnap Contract Form</h1>
-        <p>he following contract and its terms will set forth an agreement between MagikSnap (Provider) and Client the parties, for photo booth services for an event taking place at the above stated location. This written contract sets forth the full, written intention of both parties and supersedes all other written and/or oral agreements between the parties. Any other alterations or accommodations to the contract will be included in the Notes section below prior to signing the Contract (on the last page).</p>
+        <p>The following contract and its terms will set forth an agreement between MagikSnap (Provider) and Client the parties, for photo booth services for an event taking place at the above stated location. This written contract sets forth the full, written intention of both parties and supersedes all other written and/or oral agreements between the parties. Any other alterations or accommodations to the contract will be included in the Notes section below prior to signing the Contract (on the last page).</p>
     </div>
     <br>
     <div>
         <h3>CLIENT CONTACT/BILLING INFORMATION:</h3>
-        <label for="fullName">Full Name: </label>
+        <label for="fullame">Full Name: </label>
         <input type="text" name="fullName" id="fullName" placeholder="Full Name" required/>
 
         <label for="email">Email: </label>

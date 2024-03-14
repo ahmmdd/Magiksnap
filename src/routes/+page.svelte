@@ -7,7 +7,7 @@ import Booking from '$lib/components/Booking.svelte';
 
 <div id="home">
     <p>
-        <span class="yellow">Magik Snap</span> provides <span class="yellow">photo booth</span> rental services for <span class="yellow">Weddings</span>, <span class="yellow">corporate events, private parties</span> and more. Our photo booths are portable, stylish and sophisticated.
+        <span class="yellow">MagikSnap Corp.</span> provides <span class="yellow">photo booth</span> rental services for <span class="yellow">Weddings</span>, <span class="yellow">corporate events, private parties</span> and more. Our photo booths are portable, stylish and sophisticated.
     </p>
     <div>
         <!-- svelte-ignore a11y-img-redundant-alt -->

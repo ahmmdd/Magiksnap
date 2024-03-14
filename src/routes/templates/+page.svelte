@@ -6,7 +6,6 @@
     import { fly } from 'svelte/transition';
     import { inview } from 'svelte-inview';
   
-    import templates from "$lib/data/templates.json";
   
     let isInView = false;
     //pnpm run dev
@@ -26,16 +25,26 @@
       </p>
       <div transition:fly="{{ y: 50, duration: 500, delay:500 }}">
         <div class="photo-templates-gallery">
-      {#each templates as template, i}
               <div>
-              <h3 style="text-align: center;">{template.name}</h3>
-              <img
-                  src="{template.link}"
-                  alt="{template.description}"
-                  height="100%"
-              />
-              </div>
-      {/each}
+                <a href="./templates/strip">
+                  <h3 class="text-heading" style="text-align: center;">Strip(2X6) Templates</h3>
+                  <img
+                      src="/images/templates/all/062.png"
+                      alt="Magiksnap Strip Tempalates"
+                      height="85%"
+                  />
+               </a>
+            </div>
+            <div>
+              <a href="./templates/postcard">
+                <h3 class="text-heading" style="text-align: center;">Postcard(4X6) Templates</h3>
+                <img
+                    src="/images/templates/all/124.png"
+                    alt="Magiksnap Strip Tempalates"
+                    height="90%"
+                />
+             </a>
+          </div>
       </div>
       </div>
       {/if}
@@ -43,6 +52,9 @@
   </div>
   
   <style>
+    .text-heading {
+          color: black;
+      }
     #photo-templates {
       /* background: #e6e7e8; */
       border-radius: 25px;
@@ -73,18 +85,22 @@
     }
     .photo-templates-gallery{
       display: grid;
-      grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 50% 50%;
       gap:30px;
     }
     .photo-templates-gallery div{
-      height: auto;
+      height: 500px;
       background: #e6e7e8;
       padding:15px;
       border-radius: 15px;
+      cursor: pointer;
+    }
+    .photo-templates-gallery div a{
+      cursor: pointer;
+      height: 500px;
     }
     .photo-templates-gallery img{
       width: 100%;
-      height: auto;
       object-fit: contain;
     }
     @media screen and (max-width:756px){
