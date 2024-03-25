@@ -88,6 +88,9 @@
         background: #e6e7e8;
         padding:15px;
         border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
       .photo-templates-gallery img{
         width: 30%;
