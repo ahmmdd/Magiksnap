@@ -16,12 +16,12 @@
             name: "Backdrops"
         },
         {
-            link: "/photobooth",
-            name: "Photobooth"
+            link: "/packages",
+            name: "Packages"
         },
         {
-            link: "/guest-book",
-            name: "Guest Book"
+            link: "/props",
+            name: "Props"
         },
         {
             link: "/book-an-event",
