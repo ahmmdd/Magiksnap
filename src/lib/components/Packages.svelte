@@ -4,30 +4,69 @@
 </script>
 <div id="packages">
 <div class="container">
-    <h2>Packages</h2>
+    <!-- <h2>Packages</h2> -->
     <div class="packages-container">
         <div>
-            <h3>Digital Package</h3>
+            <h3>Package 1: Digital</h3>
             <ul>
                 <li>Photo Booth Setup</li>
                 <li>Unlimited Photos</li>
                 <li>Digital Copies</li>
-                <li>Backdrop</li>
+                <li>Backdrop*</li>
+                <li>Props</li>
+                <li>Social Sharing</li>
+                <li>Attendant (to operate the booth)</li>
+                <li>Starts from $199.99 + HST</li>
             </ul>
-            <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
+            <!-- <a href="https://linktr.ee/magiksnap">Book Yours Now</a> -->
         </div>
         <div>
-            <h3>Printing Package</h3>
+            <h3>Package 2: Print</h3>
             <ul>
                 <li>Photo Booth Setup</li>
                 <li>Unlimited Photos</li>
                 <li>Digital Copies</li>
-                <li>Backdrop</li>
-                <li>Unlimited Printouts</li>
-                <li>Template</li>
-                <li>Standard Props</li>
+                <li>Backdrop*</li>
+                <li>Props</li>
+                <li>Social Sharing</li>
+                <li>Attendant (to operate the booth)</li>
+                <li>One Print per session</li>
+                <li>Template (Can choose from library of 200+ template)</li>
+                <li>Starts from $299.99 + HST</li>
+
             </ul>
-            <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
+            <!-- <a href="https://linktr.ee/magiksnap">Book Yours Now</a> -->
+        </div>
+    </div>
+    <div class="packages-container">
+        <div>
+            <h3>Package 3: Unlimited Print</h3>
+            <ul>
+                <li>Photo Booth Setup</li>
+                <li>Digital Copies</li>
+                <li>Backdrop (premium Backdrops are available as add-on)</li>
+                <li>Props (5 props can be customized)</li>
+                <li>Social Sharing</li>
+                <li>Attendant (to operate the booth)</li>
+                <li>Unlimited Photos (Can take as any picture as you like)</li>
+                <li>Unlimited Prints per session</li>
+                <li>Customized Template (or can choose from library of 200+ template)</li>
+                <li>Starts from $379.99 + HST</li>
+            </ul>
+            <!-- <a href="https://linktr.ee/magiksnap">Book Yours Now</a> -->
+        </div>
+        <div>
+            <h3>Package 4: 360 Booth</h3>
+            <ul>
+                <li>360 Booth Setup (makes a 10s video boomerang)</li>
+                <li>Digital copies</li>
+                <li>Social Sharing</li>
+                <li>Attendant(s) (to operate the booth)</li>
+                <li>Unlimited Videos</li>
+                <li>Overlay and music of your own choice.</li>
+                <li>Starts from $349.99 + HST</li>
+            </ul>
+            <!-- <a href="https://linktr.ee/magiksnap">Book Yours Now</a> -->
         </div>
     </div>
 </div>

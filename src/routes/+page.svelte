@@ -1,7 +1,7 @@
 <script>
 import Memories from '$lib/components/Memories.svelte';
 import Packages from '$lib/components/Packages.svelte';
-import Booking from '$lib/components/Booking.svelte';
+// import Booking from '$lib/components/Booking.svelte';
   import Backdrops from '$lib/components/Backdrops.svelte';
 </script>
 
@@ -16,8 +16,8 @@ import Booking from '$lib/components/Booking.svelte';
 </div>
 <!-- <img transition:fly="{{ y: 50, duration: 3000, delay:100 }}" src="/images/magik-snap-photo-booth-intro-image.jpg" alt="Photo Booth" /> -->
 <Memories />
-<Packages/>
-<Backdrops/>
+<!-- <Packages/> -->
+<!-- <Backdrops/> -->
 <style>
     #home{
         width: 100%;

@@ -12,31 +12,31 @@
   <div class="two-col">
     <div>
       <label for="first_name">First Name</label>
-      <input type="text" name="first_name" value="John" required/>
+      <input type="text" name="first_name" placeholder="John" required/>
     </div>
     <div>
       <label for="last_name">Last Name</label>
-      <input type="text" name="last_name" value="Smith" required/>
+      <input type="text" name="last_name" placeholder="Smith" required/>
     </div>
   </div>
   <div class="two-col">
     <div>
       <label for="email">Email</label>
-      <input type="email" name="email" value="test@magiknsap.ca" required/>
+      <input type="email" name="email" placeholder="info@magiknsap.ca" required/>
     </div>
     <div>
       <label for="phone">Phone</label>
-      <input type="number" id="phone" name="phone" value="4168813415" minlength="10" maxlength="10" inputmode="numeric" required />
+      <input type="number" id="phone" name="phone" placeholder="xxxxxxxxxx" minlength="10" maxlength="10" inputmode="numeric" required />
     </div>
   </div>
   <div class="two-col">
     <div>
       <label for="event_location">Location</label>
-      <input type="text" name="event_location" value="scarborough" required/>
+      <input type="text" name="event_location" placeholder="city" required/>
     </div>
     <div>
       <label for="event_date">Event Date</label>
-      <input type="date"  min={minDatePicker} value={minDatePicker} name="event_date" required>
+      <input type="date"  min={minDatePicker} placeholder={minDatePicker} name="event_date" required>
     </div>
   </div>
   <div class="one-col">

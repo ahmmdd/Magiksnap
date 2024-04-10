@@ -14,10 +14,8 @@
     
     <div id="backdrops">
       <div class="container">
-        <h2>Magiksnap Backdrops</h2>
-        <p>
-          We provide various backdrops for the events.
-        </p>
+        <!-- <h2>Magiksnap Backdrops</h2> -->
+        <!-- <p>We provide various backdrops for the events.</p> -->
         <div class="swiper-memories">
           <Swiper
             spaceBetween={0}

@@ -1,3 +1,7 @@
+<script>
+
+    import Backdrops from '$lib/components/Backdrops.svelte';
+  </script>
 <br>
 <br>
 <br>
@@ -10,3 +14,4 @@ And if you're into something more natural and charming, check out our floral wal
 
 Browse our collection now and make your party picture-perfect!
 </p>
+<Backdrops/>
