@@ -1,7 +1,7 @@
 <script>
 import Memories from '$lib/components/Memories.svelte';
 import Packages from '$lib/components/Packages.svelte';
-// import Booking from '$lib/components/Booking.svelte';
+import Booking from '$lib/components/Booking.svelte';
   import Backdrops from '$lib/components/Backdrops.svelte';
 </script>
 
