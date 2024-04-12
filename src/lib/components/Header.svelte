@@ -11,18 +11,18 @@
             link: "/templates",
             name: "Templates"
         },
-        {
-            link: "/backdrops",
-            name: "Backdrops"
-        },
-        {
-            link: "/photobooth",
-            name: "Photobooth"
-        },
-        {
-            link: "/guest-book",
-            name: "Guest Book"
-        },
+        // {
+        //     link: "/backdrops",
+        //     name: "Backdrops"
+        // },
+        // {
+        //     link: "/photobooth",
+        //     name: "Photobooth"
+        // },
+        // {
+        //     link: "/guest-book",
+        //     name: "Guest Book"
+        // },
         {
             link: "/book-an-event",
             name: "Book Now"
