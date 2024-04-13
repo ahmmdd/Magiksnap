@@ -4,6 +4,9 @@
   import Booking from "$lib/components/Booking.svelte";
   import Backdrops from "$lib/components/Backdrops.svelte";
 </script>
+<title>Magik Snap</title>
+  <meta name="description" content="MagikSnap Corp. provides photo booth rental services for Weddings, corporate events, private parties and more. Our photo booths are portable, stylish and sophisticated.">
+  <meta name="keywords" content="Photobooth Rental Services, Toronto, Missasauga, Oakville, Oshawa, Hamilton">
 <div class="wrapper flex flex-column">
   <div id="home">
     <p>
