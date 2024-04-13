@@ -1,17 +1,19 @@
 <script>
 
-import Header from '../lib/components/Header.svelte';
+import Header from '$lib/components/Header.svelte';
 import '../app.scss';
 import { onMount } from 'svelte';
+  import Footer from '$lib/components/Footer.svelte';
     let ready = false;
   onMount(() => ready = true);
 </script>
-<body>
+<!-- <body> -->
     {#if ready}
     <Header/>
     <slot />
+    <Footer/>
     {/if}
-</body>
+<!-- </body> -->
 
 <style>
 /* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');

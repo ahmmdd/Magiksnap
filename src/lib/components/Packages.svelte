@@ -14,7 +14,7 @@
                 <li>Digital Copies</li>
                 <li>Backdrop</li>
             </ul>
-            <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
+            <a href="/book-an-event">Book Yours Now</a>
         </div>
         <div>
             <h3>Printing Package</h3>
@@ -27,15 +27,15 @@
                 <li>Template</li>
                 <li>Standard Props</li>
             </ul>
-            <a href="https://linktr.ee/magiksnap">Book Yours Now</a>
+            <a href="/book-an-event">Book Yours Now</a>
         </div>
     </div>
 </div>
 </div>
 <style>
 #packages{
-    max-width: 1440px;
-    margin:0 auto;
+    /* max-width: 1440px; */
+    /* margin:0 auto; */
 }
 #packages h2{
     font-size:42px;
