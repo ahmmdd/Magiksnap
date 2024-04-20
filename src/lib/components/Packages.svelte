@@ -4,7 +4,6 @@
 </script>
 <div id="packages">
 <div class="container">
-    <h2>Packages</h2>
     <div class="packages-container">
         <div>
             <h3>Digital Package</h3>
