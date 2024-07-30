@@ -16,9 +16,9 @@
         max-width: 1440px;
         padding:0 20px;
         margin:0px auto;
-        /* min-height: calc(100vh - 178px); */
+        min-height: calc(100vh - 178px);
         display: grid;
-        /* grid-template-columns: 50% 50%; */
+        grid-template-columns: 100%;
         justify-content: space-between;
         align-items: center;
         gap:40px;
@@ -26,7 +26,7 @@
     
     #pkgs p{
         color:#e6e7e8;
-        font-size:38px;
+        font-size:16px;
     }
     #pkgs img{
         width: 100%;
